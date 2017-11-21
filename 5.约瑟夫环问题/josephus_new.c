@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define ALL		10		// all people in the ring
+#define ALL	10		// all people in the ring
 #define OUT     3		// if count to 3 
 
 /* record the next people's index */
@@ -37,7 +37,7 @@ int main(void)
 
 	print_ring();
 
-	left = ALL;		// left = all people
+	left = ALL;	// left = all people
 	counter = 0;	// counter = 1, 2, 3
 	i = 0;          // begin from [0]
 	prev = ALL - 1; // 0's prev = 5;
